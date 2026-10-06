@@ -2,6 +2,7 @@
   import { invoke } from '@tauri-apps/api/core';
   import { onMount } from 'svelte';
   import { relaunch } from '@tauri-apps/plugin-process';
+  import { check } from '@tauri-apps/plugin-updater';
 
   const pad = (n) => String(n).padStart(2, '0');
   const todayStr = () => {
