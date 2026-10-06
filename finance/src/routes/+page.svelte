@@ -1,7 +1,7 @@
 <script>
   import { invoke } from '@tauri-apps/api/core';
   import { onMount } from 'svelte';
-
+  
   const pad = (n) => String(n).padStart(2, '0');
   const todayStr = () => {
     const d = new Date();
