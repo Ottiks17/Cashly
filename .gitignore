@@ -1,0 +1,33 @@
+﻿# Зависимости Node
+node_modules/
+.pnpm-store/
+
+# Сборка SvelteKit / Vite
+.svelte-kit/
+build/
+dist/
+
+# Сборка Rust
+src-tauri/target/
+
+# База данных (если лежит в проекте)
+*.db
+*.db-shm
+*.db-wal
+finance.db
+
+# Локальные секреты и ключи
+*.key
+*.key.pub
+.env
+.env.local
+
+# Логи и временные файлы
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Редакторы
+.vscode/
+.idea/
